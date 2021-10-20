@@ -1,0 +1,5 @@
+package singeltonpattern;
+
+public class ExampleSingelton {
+
+}
