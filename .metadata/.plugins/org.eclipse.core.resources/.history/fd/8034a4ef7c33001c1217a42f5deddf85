@@ -1,0 +1,11 @@
+package factorymethod;
+
+public class ConcreteCar extends CarFactory {
+
+	@Override
+	public ICar createCar(String brand) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

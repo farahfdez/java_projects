@@ -1,0 +1,7 @@
+package factorymethod;
+
+public abstract class CarFactory {
+	
+	public abstract ICar createCar(String brand);
+
+}

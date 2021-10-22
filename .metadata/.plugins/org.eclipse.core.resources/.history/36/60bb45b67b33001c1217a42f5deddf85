@@ -1,0 +1,17 @@
+package factorymethod;
+
+public class Peugeot implements ICar {
+
+	@Override
+	public void funcionalityOne() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void funcionalityTwo() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

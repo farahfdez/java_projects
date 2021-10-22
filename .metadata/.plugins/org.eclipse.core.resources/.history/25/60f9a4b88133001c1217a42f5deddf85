@@ -1,0 +1,10 @@
+package factorymethod.secondapproach;
+
+public class Excecution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package factorymethod;
+
+public class Renault implements ICar {
+
+	@Override
+	public void funcionalityOne() {
+		// here goes funcionality one method implementation
+		System.out.println("Excuting funcionality one");
+	}
+
+	@Override
+	public void funcionalityTwo() {
+		// here goes funcionality two method implementation
+		System.out.println("Excuting funcionality two");
+	}
+
+}

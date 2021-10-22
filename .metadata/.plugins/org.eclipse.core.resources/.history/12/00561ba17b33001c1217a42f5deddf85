@@ -1,0 +1,17 @@
+package factorymethod;
+
+public class Renault implements ICar {
+
+	@Override
+	public void funcionalityOne() {
+		// here goes funcionality one method implementation
+
+	}
+
+	@Override
+	public void funcionalityTwo() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

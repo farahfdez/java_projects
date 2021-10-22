@@ -1,0 +1,22 @@
+package factorymethod;
+
+import java.util.logging.Logger;
+
+
+public class Renault implements ICar {
+	
+	Logger logger = Logger.getLogger(Renault.class.getName());
+
+	@Override
+	public void funcionalityOne() {
+		// here goes funcionality one method implementation
+		logger.INFO("Excuting funcionality one");
+	}
+
+	@Override
+	public void funcionalityTwo() {
+		// here goes funcionality two method implementation
+		System.out.println("Excuting funcionality two");
+	}
+
+}

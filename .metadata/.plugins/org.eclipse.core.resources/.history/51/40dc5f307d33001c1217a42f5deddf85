@@ -1,0 +1,13 @@
+package factorymethod;
+
+public class ConcreteCar extends CarFactory {
+
+	@Override
+	public ICar createCar(String brand) {
+		switch {
+		
+		}
+		case Renault : 
+	}
+
+}
