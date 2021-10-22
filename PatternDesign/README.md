@@ -1,0 +1,1 @@
+Examples of pattern designs implementations
