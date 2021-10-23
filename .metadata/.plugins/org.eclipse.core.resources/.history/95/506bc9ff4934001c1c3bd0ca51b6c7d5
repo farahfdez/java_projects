@@ -1,0 +1,42 @@
+package facade;
+
+import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class BankingFacade {
+	
+	private HashMap<Integer, IAccount> bankAccounts;
+
+	public BankingFacade() {
+		super();
+		this.bankAccounts = new HashMap<>();
+	}
+	
+	public IAccount createNewAccount(String type, BigDecimal initialAmount) throws Exception {
+		IAccount newAccount = null;
+		switch (type) {
+		case "Saving" :
+			return newAccount = new Saving(initialAmount);
+		
+		case "Investment" : 
+			return newAccount = new Investment(initialAmount);
+		
+		case "Checking" : 
+			return newAccount = new Chequing(initialAmount);
+			
+		
+		default :
+			throw new Exception("Account type not supported");
+		}
+		
+		
+		
+		 
+		
+	}
+	
+	
+	
+
+}

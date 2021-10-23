@@ -2,4 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="singeltonpattern.SingeltonExecution"/>
     <fullyQualifiedTypeName name="singeltonpattern.ExampleSingelton"/>
+    <fullyQualifiedTypeName name="factorymethod.Renault"/>
+    <fullyQualifiedTypeName name="factorymethod.Peugeot"/>
+    <fullyQualifiedTypeName name="factorymethod.CarFactory"/>
+    <fullyQualifiedTypeName name="factorymethod.ConcreteCar"/>
+    <fullyQualifiedTypeName name="com.sun.media.jfxmedia.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="factorymethod.secondapproach.CarFactory"/>
 </qualifiedTypeNameHistroy>

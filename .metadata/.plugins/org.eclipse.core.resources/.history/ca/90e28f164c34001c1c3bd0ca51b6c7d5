@@ -1,0 +1,15 @@
+package facade;
+
+import java.math.BigDecimal;
+
+public class Excecution {
+
+	public static void main(String[] args) throws Exception {
+		BankingFacade service = new BankingFacade();
+		IAccount saving = service.createNewAccount("Saving", new BigDecimal(500));
+		System.out.println("It has been created a new saving account wiht number" + saving.getAccountNumber().toString())
+		service.createNewAccount(", initialAmount)
+
+	}
+
+}

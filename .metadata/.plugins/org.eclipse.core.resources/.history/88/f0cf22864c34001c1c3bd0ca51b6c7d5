@@ -1,0 +1,21 @@
+package facade;
+
+import java.math.BigDecimal;
+
+public class Excecution {
+
+	public static void main(String[] args) throws Exception {
+		BankingFacade service = new BankingFacade();
+		IAccount saving = service.createNewAccount("Saving", new BigDecimal(500));
+		System.out
+				.println("It has been created a new saving account wiht number" + saving.getAccountNumber().toString());
+		IAccount investment = service.createNewAccount("Investment", new BigDecimal(1000));
+		System.out.println(
+				"It has been created a new investment account wiht number" + investment.getAccountNumber().toString());
+		
+		service.withdraw(3, new BigDecimal(300));
+		service.deposit(1, new BigDecimal(200));
+
+	}
+
+}

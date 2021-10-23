@@ -1,0 +1,13 @@
+package facade;
+
+import java.math.BigDecimal;
+
+public class Excecution {
+
+	public static void main(String[] args) throws Exception {
+		BankingFacade service = new BankingFacade();
+		service.createNewAccount("Saving", new BigDecimal(500));
+
+	}
+
+}

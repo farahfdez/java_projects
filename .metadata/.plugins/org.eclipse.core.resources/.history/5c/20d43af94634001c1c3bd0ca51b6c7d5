@@ -1,0 +1,16 @@
+package facade;
+
+import java.util.Hashtable;
+
+public class BankingFacade {
+	
+	private Hashtable<Integer, IAccount> bankAccounts;
+
+	public BankingFacade() {
+		super();
+		this.bankAccounts = new Hashtable<>();
+	}
+	
+	
+
+}

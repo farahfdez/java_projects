@@ -1,0 +1,31 @@
+package facade;
+
+import java.math.BigDecimal;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Investment implements IAccount {
+
+	Logger logger = Logger.getLogger(Investment.class.getName());
+
+	@Override
+	public Integer getAccountNumber() {		
+		return 3;
+	}
+
+	@Override
+	public void deposit(BigDecimal amount) {
+		logger.log(Level.INFO, "Deposit {}", amount);
+	}
+
+	@Override
+	public void withdraw(BigDecimal amount) {
+		logger.log(Level.INFO, "Withdraw {}", amount);
+	}
+
+	@Override
+	public void transfer(Integer account, BigDecimal amount) {
+		logger.log(Level.INFO, "Transfer made to account {} ", account);
+	}
+
+}

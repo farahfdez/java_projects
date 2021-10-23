@@ -1,0 +1,42 @@
+package facade;
+
+import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class BankingFacade {
+	
+	private HashMap<Integer, IAccount> bankAccounts;
+
+	public BankingFacade() {
+		super();
+		this.bankAccounts = new HashMap<>();
+	}
+	
+	public Integer createNewAccount(String type, BigDecimal initialAmount) {
+		switch (type) {
+		case "Saving" :
+			IAccount newAccount = new Saving(initialAmount);
+			break;
+		
+		case "Investment" : 
+			IAccount newAccount = new Investment(initialAmount);
+			break;
+		
+		case "Checking" : 
+			IAccount newAccount = new Chequing(initialAmount);
+			break;
+		
+		default :
+			IAccount newAccount = null;
+			break;
+		}
+		
+		return 
+		
+	}
+	
+	
+	
+
+}
